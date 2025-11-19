@@ -48,3 +48,8 @@ person:
 demo2:
   name1: 'zhangsan \n lisi' # 将/n转义成换行
   name2: "zhangsan \n lisi" # 不会转义
+
+# 配置静态资源映射规则 配置前缀
+#spring:
+#  mvc:
+#    static-path-pattern: /static/**
