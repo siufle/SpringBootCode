@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+# 指定加载prod环境的配置文件
+#spring:
+#  profiles:
+#    active: prod
+
+
+#debug: true
+
+# 加载指定组的配置文件
+spring:
+  profiles:
+    active: myprod
+    group:
+      myprod[0]: prod
+      myprod[1]: test
